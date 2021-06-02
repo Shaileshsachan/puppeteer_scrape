@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer_scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaileshsachan/puppeteer_scrape.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaileshsachan/puppeteer_scrape/issues"
+  },
+  "homepage": "https://github.com/Shaileshsachan/puppeteer_scrape#readme",
+  "dependencies": {
+    "puppeteer": "^10.0.0"
+  }
+}
