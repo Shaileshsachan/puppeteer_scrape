@@ -1,12 +1,13 @@
 # WIKIPEDIA SCRAPER FOR AIRPORTS
+(PS: I am good a Javascript more... I am selected will master typescript too)
 
 RUNNING SCRIPT : <br />
 ```console
-puppeteer_scrape>node Scrape.ts
+shailesh@puppeteer_scrape:~$ node Scrape.ts
 ```
 CONSOLE OUTPUT : <br />
 ```console
-puppeteer_scrape>node Scrape.ts
+shailesh@puppeteer_scrape:~$ node Scrape.ts
 Saved Succesfully airport names for alphabet A
 Saved Succesfully airport names for alphabet B
 Saved Succesfully airport names for alphabet C
@@ -34,5 +35,7 @@ Saved Succesfully airport names for alphabet X
 Saved Succesfully airport names for alphabet Y
 Saved Succesfully airport names for alphabet Z
 ```
+
+
 
 ![](images/Capture.PNG)
