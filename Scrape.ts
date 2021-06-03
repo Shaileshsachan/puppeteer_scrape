@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
-const scrape = async () => {
+const launchEntryPoint = async () => {
   const browser = await puppeteer.launch({ headless: true }); //Launch headless without opening the browser on the display
   const page = await browser.newPage();
   await page.goto("https://en.wikipedia.org/wiki/Lists_of_airports"); //async call to entrypoint as mentioned in the assessment DOC
@@ -14,8 +14,6 @@ const scrape = async () => {
   }
   await browser.close(); //Close browser after finishing the loop
 };
-
-scrape();
 
 const scraper = async (page, no) => {
   const list = []; //list to push individual table data
@@ -68,3 +66,5 @@ const scraper = async (page, no) => {
     }
   });
 };
+
+launchEntryPoint();
