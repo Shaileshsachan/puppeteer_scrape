@@ -1,5 +1,12 @@
 # WIKIPEDIA SCRAPER FOR AIRPORTS
-(PS: I am good a Javascript more... I am selected will master typescript too)
+(PS: I am good a Javascript more...if I am selected will master typescript too)
+
+INSTALLATION: <br />
+```console
+shailesh@puppeteer_scrape:~$ npm install
+or
+shailesh@puppeteer_scrape:~$ npm i puppeteer
+```
 
 RUNNING SCRIPT : <br />
 ```console
